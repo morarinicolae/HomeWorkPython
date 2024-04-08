@@ -1,0 +1,70 @@
+age = 25
+----------------
+print (age)
+----------------
+age = 22
+----------------
+print (age)
+----------------
+age = 25
+age2 = age
+print (age2)
+----------------
+age2 = age
+print (age2)
+
+
+-------------------------------------task2-------------------------------------------
+is_student = True
+----------------
+print (is_student)
+----------------
+is_child = False
+print (is_child)
+
+----------------
+print (is_child and is_student)
+
+----------------
+print (is_child or is_student)
+----------------
+print (not is_student)
+----------------
+
+
+-------------------------------------task3-------------------------------------------
+
+number = 10
+----------------
+print(number)
+----------------
+number2 = number
+print (number2)
+----------------
+number3 = 4
+print (number + number3)
+print (number - number3)
+print (number * number3)
+print (number / number3)
+print (number % number3)
+print (number // number3)
+----------------
+number4 = 100000
+----------------
+numar = 0.5
+----------------
+print (numar)
+----------------
+numar2 = 0.2
+----------------
+numar_mare = 385203847234
+----------------
+print (numar_mare)
+----------------
+del numar_mare
+
+
+
+
+
+
