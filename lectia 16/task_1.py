@@ -28,7 +28,7 @@ Creează o funcție lambda numită `task2` care verifică dacă un număr este p
 """
 
 # CODUL TĂU VINE MAI JOS
-task2 = lambda x: x % 2 == 0
+task2 = None
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -40,7 +40,7 @@ Creează o funcție lambda numită `task3` care înmulțește două numere.
 """
 
 # CODUL TĂU VINE MAI JOS
-task3 = lambda x, y: x * y
+task3 = None
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -52,7 +52,7 @@ Crează o funcție lambda numită `task4` care returnează lungimea unui șir de
 """
 
 # CODUL TĂU VINE MAI JOS
-task4 = lambda s: len(s)
+task4 = None
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -64,7 +64,7 @@ Creează o funcție lambda numită `task5` care convertește un șir de caracter
 """
 
 # CODUL TĂU VINE MAI JOS
-task5 = lambda s: s.upper()
+task5 = None
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -76,7 +76,7 @@ Creează o funcție lambda numită `task6` care găsește maximul dintre trei nu
 """
 
 # CODUL TĂU VINE MAI JOS
-task6 = lambda x, y, z: max(x, y, z)
+task6 = None
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -88,7 +88,7 @@ Creează o funcție lambda numită `task7` care concatenează două șiruri de c
 """
 
 # CODUL TĂU VINE MAI JOS
-task7 = lambda s1, s2: s1 + ' ' + s2
+task7 = None
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -100,7 +100,7 @@ Creează o funcție lambda numită `task8` care filtrează numerele impare dintr
 """
 
 # CODUL TĂU VINE MAI JOS
-task8 = lambda lst: list(filter(lambda x: x % 2 != 0, lst))
+task8 = None
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -113,7 +113,7 @@ Creează o funcție lambda numită `task9` care calculează factorialul unui num
 
 # CODUL TĂU VINE MAI JOS
 from functools import reduce
-task9 = lambda n: reduce(lambda x, y: x * y, range(1, n + 1))
+task9 = None
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -125,7 +125,7 @@ Creează o funcție lambda numită `task10` care sortează o listă de tuple dup
 """
 
 # CODUL TĂU VINE MAI JOS
-task10 = lambda lst: sorted(lst, key=lambda x: x[1])
+task10 = None
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -137,7 +137,7 @@ Creează o funcție lambda numită `task11` care returnează rădăcina pătrat�
 """
 
 # CODUL TĂU VINE MAI JOS
-task11 = lambda x: x ** 0.5
+task11 = None
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -149,7 +149,7 @@ Creează o funcție lambda numită `task12` care verifică dacă un șir de cara
 """
 
 # CODUL TĂU VINE MAI JOS
-task12 = lambda s: s == s[::-1]
+task12 = None
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -161,7 +161,7 @@ Creează o funcție lambda numită `task13` care numără numărul de vocale din
 """
 
 # CODUL TĂU VINE MAI JOS
-task13 = lambda s: sum(map(s.lower().count, 'aeiou'))
+task13 = None
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -173,7 +173,7 @@ Creează o funcție lambda numită `task14` care returnează inversul unui șir 
 """
 
 # CODUL TĂU VINE MAI JOS
-task14 = lambda s: s[::-1]
+task14 = None
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -185,7 +185,7 @@ Creează o funcție lambda numită `task15` care filtrează toate șirurile de c
 """
 
 # CODUL TĂU VINE MAI JOS
-task15 = lambda lst: list(filter(lambda s: len(s) > 5, lst))
+task15 = None
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -197,7 +197,7 @@ Creează o funcție lambda numită `task16` care sortează o listă de dicționa
 """
 
 # CODUL TĂU VINE MAI JOS
-task16 = lambda lst, key: sorted(lst, key=lambda d: d[key])
+task16 = None
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -209,7 +209,7 @@ Creează o funcție lambda numită `task17` care găsește cel mai mare divizor 
 """
 
 # CODUL TĂU VINE MAI JOS
-task17 = lambda a, b: task17(b, a % b) if b else a
+task17 = None
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -221,7 +221,7 @@ Creează o funcție lambda numită `task18` care calculează suma pătratelor nu
 """
 
 # CODUL TĂU VINE MAI JOS
-task18 = lambda lst: sum(map(lambda x: x ** 2, filter(lambda x: x % 2 == 0, lst)))
+task18 = None
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -233,7 +233,7 @@ Creează o funcție lambda numită `task19` care verifică dacă un an dat este 
 """
 
 # CODUL TĂU VINE MAI JOS
-task19 = lambda year: year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)
+task19 = None
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -245,7 +245,7 @@ Creează o funcție lambda numită `task20` care găsește cel mai lung cuvânt 
 """
 
 # CODUL TĂU VINE MAI JOS
-task20 = lambda words: max(words, key=len)
+task20 = None
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -259,9 +259,7 @@ Creează un generator numit `task21` care generează numere de la 1 la 10.
 
 # CODUL TĂU VINE MAI JOS
 def task21():
-    for i in range(1, 11):
-        yield i
-
+    pass
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -274,9 +272,7 @@ Creează un generator numit `task22` care generează pătratele numerelor de la 
 
 # CODUL TĂU VINE MAI JOS
 def task22():
-    for i in range(1, 11):
-        yield i ** 2
-
+    pass
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -288,10 +284,8 @@ Creează un generator numit `task23` care generează caracterele unui string pri
 """
 
 # CODUL TĂU VINE MAI JOS
-def task23(s):
-    for char in s:
-        yield char
-
+def task23():
+    pass
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -303,10 +297,8 @@ Creează un generator numit `task24` care generează numere pare până la un li
 """
 
 # CODUL TĂU VINE MAI JOS
-def task24(limit):
-    for i in range(2, limit + 1, 2):
-        yield i
-
+def task24():
+    pass
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -318,12 +310,8 @@ Creează un generator numit `task25` care primește ca input un număr n și gen
 """
 
 # CODUL TĂU VINE MAI JOS
-def task25(n):
-    a, b = 0, 1
-    for _ in range(n):
-        yield a
-        a, b = b, a + b
-
+def task25():
+    pass
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -335,19 +323,8 @@ Creează un generator numit `task26` care generează numere prime până la o li
 """
 
 # CODUL TĂU VINE MAI JOS
-def task26(limit):
-    def is_prime(n):
-        if n <= 1:
-            return False
-        for i in range(2, int(n ** 0.5) + 1):
-            if n % i == 0:
-                return False
-        return True
-
-    for num in range(2, limit + 1):
-        if is_prime(num):
-            yield num
-
+def task26():
+    pass
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -359,10 +336,8 @@ Creează un generator numit `task27` care generează numere într-un interval sp
 """
 
 # CODUL TĂU VINE MAI JOS
-def task27(start, end, step):
-    for num in range(start, end, step):
-        yield num
-
+def task27():
+    pass
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -377,12 +352,8 @@ output-ul va fi: "c", "ci", "cia", "ciao", "i", "ia", "iao", "a", "ao", "o"
 """
 
 # CODUL TĂU VINE MAI JOS
-def task28(s):
-    length = len(s)
-    for i in range(length):
-        for j in range(i + 1, length + 1):
-            yield s[i:j]
-
+def task28():
+    pass
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -394,12 +365,8 @@ Creează un generator numit `task29` care generează factorialul numerelor de la
 """
 
 # CODUL TĂU VINE MAI JOS
-def task29(n):
-    factorial = 1
-    for i in range(1, n + 1):
-        factorial *= i
-        yield factorial
-
+def task29():
+    pass
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -411,11 +378,8 @@ Creează un generator numit `task30` care generează cifrele unui număr în ord
 """
 
 # CODUL TĂU VINE MAI JOS
-def task30(num):
-    num_str = str(num)
-    for char in reversed(num_str):
-        yield int(char)
-
+def task30():
+    pass
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -430,14 +394,8 @@ output-ul va fi: (1,), (2,), (3,), (4,), (1, 2), (1, 3), (1, 4), (2, 3), (2, 4),
 """
 
 # CODUL TĂU VINE MAI JOS
-from itertools import combinations
-
-def task31(lst):
-    length = len(lst)
-    for i in range(1, length + 1):
-        for comb in combinations(lst, i):
-            yield comb
-
+def task31():
+    pass
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -449,12 +407,8 @@ Creează un generator numit `task32` care generează suma curentă a unei liste 
 """
 
 # CODUL TĂU VINE MAI JOS
-def task32(lst):
-    total = 0
-    for num in lst:
-        total += num
-        yield total
-
+def task32():
+    pass
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -470,11 +424,7 @@ output-ul va fi: 1, 3, 5, 7, 9
 
 # CODUL TĂU VINE MAI JOS
 def task33(a, d, n):
-    current = a
-    for _ in range(n):
-        yield current
-        current += d
-
+    pass
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -486,12 +436,8 @@ Creează un generator numit `task34` care generează puterile lui 2 până la o 
 """
 
 # CODUL TĂU VINE MAI JOS
-def task34(limit):
-    power = 0
-    while 2 ** power <= limit:
-        yield 2 ** power
-        power += 1
-
+def task34():
+    pass
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -506,12 +452,8 @@ output-ul va fi: 2, 6, 18, 54, 162, ...
 """
 
 # CODUL TĂU VINE MAI JOS
-def task35(a, r):
-    current = a
-    while True:
-        yield current
-        current *= r
-
+def task35():
+    pass
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -526,12 +468,8 @@ output-ul va fi: (1, 2, 3), (1, 3, 2), (2, 1, 3), (2, 3, 1), (3, 1, 2), (3, 2, 1
 """
 
 # CODUL TĂU VINE MAI JOS
-from itertools import permutations
-
-def task36(lst):
-    for perm in permutations(lst):
-        yield perm
-
+def task36():
+    pass
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -543,20 +481,8 @@ Creează un generator numit `task37` care generează toți factorii primi ai unu
 """
 
 # CODUL TĂU VINE MAI JOS
-def task37(limit):
-    def is_prime(n):
-        if n <= 1:
-            return False
-        for i in range(2, int(n ** 0.5) + 1):
-            if n % i == 0:
-                return False
-        return True
-
-    for num in range(2, limit + 1):
-        if is_prime(num):
-            yield num
-
-
+def task37():
+    pass
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -568,13 +494,8 @@ Creează un generator numit `task38` care generează reprezentarea binară a num
 """
 
 # CODUL TĂU VINE MAI JOS
-def task38(n):
-    for i in range(1, n + 1):
-        yield bin(i)[2:]
-
-# VERIFICATION PROCESS
-print(list(task38(5)))
-
+def task38():
+    pass
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -589,15 +510,8 @@ output-ul va fi: "abc", "acb", "bac", "bca", "cab", "cba"
 """
 
 # CODUL TĂU VINE MAI JOS
-from itertools import permutations
-
 def task39(s):
-    for perm in permutations(s):
-        yield ''.join(perm)
-
-# VERIFICATION PROCESS
-print(list(task39("abc")))
-
+    pass
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -615,16 +529,7 @@ Aici, n este indexul termenului (începând de la 0), iar n! (n factorial) este 
 
 # CODUL TĂU VINE MAI JOS
 def task40():
-    import math
-    n = 0
-    while True:
-        yield (-1) ** n / math.factorial(n)
-        n += 1
-
-# VERIFICATION PROCESS
-gen = task40()
-print([next(gen) for _ in range(10)])
-
+    pass
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -638,24 +543,8 @@ Creează un decorator numit `task41` care afișează timpul de execuție al unei
 
 # CODUL TĂU VINE MAI JOS
 import time
-
-def task41(func):
-    def wrapper(*args, **kwargs):
-        start_time = time.time()
-        result = func(*args, **kwargs)
-        end_time = time.time()
-        print(f"Execution time: {end_time - start_time} seconds")
-        return result
-    return wrapper
-
-# VERIFICATION PROCESS
-@task41
-def example_function():
-    time.sleep(1)
-    return "Function complete"
-
-print(example_function())
-
+def task41():
+    pass
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -667,21 +556,8 @@ Creează un decorator numit `task42` care afișează mesaje "Before" și "After"
 """
 
 # CODUL TĂU VINE MAI JOS
-def task42(func):
-    def wrapper(*args, **kwargs):
-        print("Before")
-        result = func(*args, **kwargs)
-        print("After")
-        return result
-    return wrapper
-
-# VERIFICATION PROCESS
-@task42
-def example_function():
-    print("Function is running")
-
-example_function()
-
+def task42():
+    pass
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -693,24 +569,8 @@ Creează un decorator numit `task43` care memorează rezultatele unei funcții �
 """
 
 # CODUL TĂU VINE MAI JOS
-def task43(func):
-    cache = {}
-    def wrapper(*args):
-        if args in cache:
-            return cache[args]
-        result = func(*args)
-        cache[args] = result
-        return result
-    return wrapper
-
-# VERIFICATION PROCESS
-@task43
-def example_function(x):
-    return x * 2
-
-print(example_function(2))
-print(example_function(2))
-
+def task43():
+    pass
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -722,23 +582,8 @@ Creează un decorator numit `task44` care numără de câte ori o funcție este 
 """
 
 # CODUL TĂU VINE MAI JOS
-def task44(func):
-    count = 0
-    def wrapper(*args, **kwargs):
-        nonlocal count
-        count += 1
-        print(f"Count: {count}")
-        return func(*args, **kwargs)
-    return wrapper
-
-# VERIFICATION PROCESS
-@task44
-def example_function():
-    print("Function is running")
-
-example_function()
-example_function()
-
+def task44():
+    pass
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -750,19 +595,8 @@ Creează un decorator numit `task45` care convertește rezultatul unei funcții 
 """
 
 # CODUL TĂU VINE MAI JOS
-def task45(func):
-    def wrapper(*args, **kwargs):
-        result = func(*args, **kwargs)
-        return result.upper()
-    return wrapper
-
-# VERIFICATION PROCESS
-@task45
-def example_function():
-    return "hello world"
-
-print(example_function())
-
+def task45():
+    pass
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -774,18 +608,8 @@ Creează un decorator numit `task46` care reîncearcă o funcție dacă aceasta 
 """
 
 # CODUL TĂU VINE MAI JOS
-def task46(func):
-    def wrapper(*args, **kwargs):
-        count = 0
-        while count < 3:
-            try:
-                return func(*args, **kwargs)
-            except Exception as e:
-                print(f"Retrying due to: {e}")
-                count += 1
-        raise Exception("Function failed after 3 retries")
-    return wrapper
-
+def task46():
+    pass
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -797,21 +621,8 @@ Creează un decorator numit `task47` care adaugă o valoare specificată la valo
 """
 
 # CODUL TĂU VINE MAI JOS
-def task47(value_to_add):
-    def decorator(func):
-        def wrapper(*args, **kwargs):
-            result = func(*args, **kwargs)
-            return result + value_to_add
-        return wrapper
-    return decorator
-
-# VERIFICATION PROCESS
-@task47(5)
-def example_function():
-    return 10
-
-print(example_function())
-
+def task47():
+    pass
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -823,27 +634,8 @@ Creează un decorator numit `task48` care validează tipurile argumentelor primi
 """
 
 # CODUL TĂU VINE MAI JOS
-def task48(expected_types):
-    def decorator(func):
-        def wrapper(*args, **kwargs):
-            for arg, expected_type in zip(args, expected_types):
-                if not isinstance(arg, expected_type):
-                    raise TypeError(f"Argument {arg} is not of type {expected_type}")
-            return func(*args, **kwargs)
-        return wrapper
-    return decorator
-
-# VERIFICATION PROCESS
-@task48((int, str))
-def example_function(a, b):
-    return f"{a}, {b}"
-
-print(example_function(10, "test"))
-try:
-    print(example_function(10, 20))
-except TypeError as e:
-    print(e)
-   
+def task48():
+    pass    
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
@@ -857,19 +649,8 @@ Aceasta va arunca o excepție `PermissionError` dacă utilizatorul nu are rolul 
 """
 
 # CODUL TĂU VINE MAI JOS
-def task49(role):
-    def decorator(func):
-        def wrapper(*args, **kwargs):
-            # Verificam daca utilizatorul are rolul necesar
-            if "user_role" not in kwargs or kwargs["user_role"] != role:
-                raise PermissionError("Utilizatorul nu are permisiunea necesara pentru a apela aceasta functie.")
-            # Daca utilizatorul are rolul necesar, eliminam cheia "user_role" din kwargs si apelam functia
-            del kwargs["user_role"]
-            return func(*args, **kwargs)
-        return wrapper
-    return decorator
-
-
+def task49():
+    pass
 # CODUL TĂU VINE MAI SUS
 
 # VERIFICATION PROCESS
