@@ -1,4 +1,4 @@
-entrypoint = "task_1.py"
+entrypoint = "testare.py"
 modules = ["python-3.10:v18-20230807-322e88b"]
 
 [nix]
